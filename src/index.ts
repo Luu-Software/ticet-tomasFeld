@@ -45,6 +45,13 @@ function calcularTotal(id: string, cantidadNum: number, codigoDescuento:string)
             {
               return (1000) * cantidadNum;
             }
+            if(codigoDescuento != "TIC10" && codigoDescuento != "TIC20" && codigoDescuento != "DARIO")
+
+              {
+
+                return (1000) * cantidadNum;
+
+              }
     break;
     case "kgatlw":
       if(codigoDescuento == "TIC1O")
@@ -63,6 +70,13 @@ function calcularTotal(id: string, cantidadNum: number, codigoDescuento:string)
             {
               return (700) * cantidadNum;
             }
+            if(codigoDescuento != "TIC10" && codigoDescuento != "TIC20" && codigoDescuento != "DARIO")
+
+              {
+
+                return (700) * cantidadNum;
+
+              }
     break;
     case "lali":
       if(codigoDescuento == "TIC1O")
@@ -81,6 +95,13 @@ function calcularTotal(id: string, cantidadNum: number, codigoDescuento:string)
             {
               return (500) * cantidadNum;
             }
+            if(codigoDescuento != "TIC10" && codigoDescuento != "TIC20" && codigoDescuento != "DARIO")
+
+              {
+
+                return (500) * cantidadNum;
+
+              }
     break;
     case "magdalena":
       if(codigoDescuento == "TIC1O")
@@ -99,6 +120,13 @@ function calcularTotal(id: string, cantidadNum: number, codigoDescuento:string)
             {
               return (600) * cantidadNum;
             }
+            if(codigoDescuento != "TIC10" && codigoDescuento != "TIC20" && codigoDescuento != "DARIO")
+
+              {
+
+                return (600) * cantidadNum;
+
+              }
     break;
     case "viagra":
       if(codigoDescuento == "TIC1O")
@@ -117,6 +145,14 @@ function calcularTotal(id: string, cantidadNum: number, codigoDescuento:string)
             {
               return (400) * cantidadNum;
             }
+
+            if(codigoDescuento != "TIC10" && codigoDescuento != "TIC20" && codigoDescuento != "DARIO")
+
+              {
+
+                return (400) * cantidadNum;
+
+              }
     break;
     case "dillom":
       if(codigoDescuento == "TIC1O")
@@ -135,6 +171,13 @@ function calcularTotal(id: string, cantidadNum: number, codigoDescuento:string)
             {
               return (350) * cantidadNum;
             }
+            if(codigoDescuento != "TIC10" && codigoDescuento != "TIC20" && codigoDescuento != "DARIO")
+
+              {
+
+                return (350) * cantidadNum;
+
+              }
     break;
     case "marilina":
       if(codigoDescuento == "TIC1O")
@@ -152,7 +195,13 @@ function calcularTotal(id: string, cantidadNum: number, codigoDescuento:string)
           if(codigoDescuento == "")
             {
               return (200) * cantidadNum;
-            }
+            } if(codigoDescuento != "TIC10" && codigoDescuento != "TIC20" && codigoDescuento != "DARIO")
+
+              {
+
+                return (200) * cantidadNum;
+
+              }
     break;
     case "mugre":
       if(codigoDescuento == "TIC1O")
@@ -171,6 +220,13 @@ function calcularTotal(id: string, cantidadNum: number, codigoDescuento:string)
             {
               return (150) * cantidadNum;
             }
+            if(codigoDescuento != "TIC10" && codigoDescuento != "TIC20" && codigoDescuento != "DARIO")
+
+              {
+
+                return (150) * cantidadNum;
+
+              }
     break;
     default:
       return 0;
